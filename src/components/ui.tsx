@@ -1,8 +1,8 @@
 import type { ReactNode, CSSProperties, ButtonHTMLAttributes } from "react";
-const dinoGreen = `${import.meta.env.BASE_URL}images/dino-green-s.png`;
-const dinoRed = `${import.meta.env.BASE_URL}images/dino-red-s.png`;
-const dinoBlue = `${import.meta.env.BASE_URL}images/dino-blue-s.png`;
-const dinoPurple = `${import.meta.env.BASE_URL}images/dino-purple-s.png`;
+const dinoGreen = `${import.meta.env.BASE_URL}images/dino-green.png`;
+const dinoRed = `${import.meta.env.BASE_URL}images/dino-red.png`;
+const dinoBlue = `${import.meta.env.BASE_URL}images/dino-blue.png`;
+const dinoPurple = `${import.meta.env.BASE_URL}images/dino-purple.png`;
 
 /* ---------------- Star ---------------- */
 export function Star({
