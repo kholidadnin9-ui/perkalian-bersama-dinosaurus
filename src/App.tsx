@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import bg from "./assets/jungle-bg.jpg";
+
 import Confetti from "./components/Confetti";
 import {
   Btn,
@@ -30,6 +30,8 @@ import {
   type Question,
 } from "./lib/game";
 import { sfx } from "./lib/sound";
+
+const bg = `${import.meta.env.BASE_URL}images/jungle-bg.jpg`;
 
 type Screen = "home" | "levels" | "intro" | "quiz" | "done" | "final";
 type Feedback = "none" | "correct" | "wrong";
